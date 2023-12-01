@@ -1,0 +1,102 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination span {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+}
+
+.pagination span.active {
+  background-color: #4caf50;
+  color: white;
+}
+.todos {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+
+
+.todo-item_title {
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.todo-item_actions button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.todo-btn_save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.todo-btn_cancel {
+  background-color: #f44336;
+  color: white;
+}
+
+.todo-btn_edit,
+.todo-btn_delete {
+  background-color: #008cba;
+  color: white;
+}
+
+
+.form-container {
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form > input {
+  padding: 8px;
+  margin-right: 10px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-todo_btn {
+  background-color: #008cba;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-todo_btn:hover {
+  background-color: #006799;
+}
