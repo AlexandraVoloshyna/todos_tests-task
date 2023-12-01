@@ -17,18 +17,21 @@ A simple React-based Todo application with Redux state management.
 
 1. Clone the repository:
 
-   git clone https://github.com/AlexDevV8/todos_tests-task.git
-2. Navigate to the project directory:
+   
 
-cd todo-app
-3. Install dependencies:
-
-npm install
-
-### Usage
-Run the development server:
+2. Navigate to the project directory
 
 
+3. Install the project dependencies
+
+   
+
+## Usage
+
+To start the development server and run the Netflix clone locally, use the following command:
+
+```bash
 npm run dev
+```
 
 Open your browser and go to http://localhost:5173.
