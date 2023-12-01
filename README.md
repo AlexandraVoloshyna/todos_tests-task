@@ -28,7 +28,7 @@ A simple React-based Todo application with Redux state management.
 
 ## Usage
 
-To start the development server and run the Netflix clone locally, use the following command:
+To start the development server and run the project, use the following command:
 
 ```bash
 npm run dev
